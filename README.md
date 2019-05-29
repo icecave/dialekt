@@ -1,14 +1,10 @@
 # Dialekt
 
-[![Build Status]](https://travis-ci.org/IcecaveStudios/dialekt)
-[![Test Coverage]](https://coveralls.io/r/IcecaveStudios/dialekt?branch=develop)
-[![SemVer]](http://semver.org)
+> **This project has been deprecated by the authors. Use [dialekt/dialekt](https://github.com/dialekt-lang/dialekt-php) instead.**
 
 **Dialekt** is a very simple language for representing boolean expressions of the form often used by search engines.
 
-* Install via [Composer](http://getcomposer.org) package [icecave/dialekt](https://packagist.org/packages/icecave/dialekt)
-* Read the [API documentation](http://icecavestudios.github.io/dialekt/artifacts/documentation/api/)
-* Try the [online demo](http://dialekt.icecave.com.au)
+    composer require icecave/dialekt
 
 ## Rationale and Concepts
 
@@ -53,8 +49,3 @@ example above.
 
 When parenthesis are not present, the `AND` operator has higher precedence than `OR` such that `foo OR bar AND baz` is
 equivalent to `foo OR (bar AND baz)`.
-
-<!-- references -->
-[Build Status]: http://img.shields.io/travis/IcecaveStudios/dialekt/develop.svg
-[Test Coverage]: http://img.shields.io/coveralls/IcecaveStudios/dialekt/develop.svg
-[SemVer]: http://img.shields.io/:semver-0.1.0-yellow.svg
